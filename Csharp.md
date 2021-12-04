@@ -1,7 +1,9 @@
 ---
 layout: post
+title: C#
+author: rafcio
+tags: c# language programing
 ---
-# C\#
 
 <p>Baza pytań dotycząca C# jakie można usłyszeć</p>
 
