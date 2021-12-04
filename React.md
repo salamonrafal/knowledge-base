@@ -1,7 +1,9 @@
 ---
 layout: post
+title: React
+author: rafcio
+tags: react react-components jsx redux
 ---
-# React
 
 <p>Baza pytań dotycząca Reacta jakie można usłyszeć</p>
 
