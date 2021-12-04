@@ -10,15 +10,7 @@ Udostępniam publiczną bazę wiedzy dla deweloperów backendowych, frontendowyc
 * [React](./React.html)
 * [Rest](./Rest.html)
 * [Dobre praktyki programowania (SOLID, KIS, DRY, etc.)](./Akronimy.html)
-<!-- * [SQL](./Sql.html)
-* [Unit tests context C#](./Unit_Test.html)
-* [Integration tests context C#](./Integration_Tests.html)
-* [Acceptance tests](./Acceptance_Tests.html)
-* [GIT](./Git.html)
-* [CI/CD](./CiCd.html)
-* [JavaScript](./Js.html)
-* [TDD, BDD, DDD etc.](./Metodyki.html)
-* [RabbitMQ](./Queue.html) -->
+
 
 Jeśli masz jakieś uwagi możesz skontakować się ze mną po przez wiadomości na GitHubie.
 
