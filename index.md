@@ -10,7 +10,11 @@ Udostępniam publiczną bazę wiedzy dla deweloperów backendowych, frontendowyc
 * [React](./React.html)
 * [Rest](./Rest.html)
 * [Dobre praktyki programowania (SOLID, KIS, DRY, etc.)](./Akronimy.html)
+* [SQL](./Sql.html)
+* [JavaScript](./Js.html)
+* [TDD, BDD, DDD etc.](./Metodyki.html)
 
+---
 
 Jeśli masz jakieś uwagi możesz skontakować się ze mną po przez wiadomości na GitHubie.
 

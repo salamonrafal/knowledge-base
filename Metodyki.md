@@ -1,6 +1,16 @@
 ---
-layout: default
+title: Metodyki
+author: rafcio
+tags: tdd bdd ddd fdd
 ---
-# Metodyki
 
 <p>Baza pytań dotycząca metodyk jakie można usłyszeć</p>
+
+### 1. Co to jest TDD?
+TDD, czyli Test-Driven Development to podejście w tworzeniu oprogramowania, które na samym początku zakłada napisanie testów, a dopiero później właściwego kodu spełniającego dane założenia. W ostatnim kroku TDD programista dokonuje refaktoryzacji kodu. Takie podejście daje gwarancję, że stworzymy oprogramowanie spełniające przyjęte na początku założenia (uwzględnione w testach). Odpalając test przed implementacją kodu możemy upewnić się, że wszystkie testy zostaną oblane, czyli nie przejdą i zaświecą się nam na czerwono. Dlatego ta pierwsza faza nazywana jest „czerwoną”. W drugiej, po napisaniu kodu, testy powinny przejść już bez problemów i faza ta zwana jest „zieloną”. Ostatnia faza to prostu z ang. refactoring.
+
+### 2. Co to jest BDD?
+BDD, czyli Behavior-Driven Development. Kod, który tworzysz bardzo często odzwierciedla rzeczywiste zachowania, procesy, rzeczy, osoby czy obiekty. Takie programowanie wydaje się często naturalne i prostsze, zarówno dla piszącego, jak i czytającego programisty. I właśnie do odzwierciedlania rzeczywistych zachowań zmierza technika BDD. Z jednej strony Behavior-Driven Development rozwija technikę TDD i również zakłada tworzenie oprogramowania w oparciu o testy, ale też idzie o krok dalej. Zarówno kod, jak i testy powinny odpowiadać rzeczywistym zachowaniom. Być może spotkaliście się z BDD całkiem nieświadomie stosując w testach wzór Given-When-Then, jako szkielet testu. Takie podejście pomaga łączyć osoby z tzw. biznesu, czyli nietechniczne, z programistami. Dostarczając konkretne scenariusze, programista wie nie tylko co jego kod ma zrobić, ale również jak można go napisać by był czytelny i zrozumiały, a testy sprawdziły wszystkie możliwe zachowania. Co ciekawe oprócz nawiązania do TDD, ta technika łączy się również z kolejnym pojęciem, czyli DDD. To tylko krótkie przedstawienie tematu BDD, bo więcej znajdziecie np. na blogu firmy JCommerce.
+
+### 3. Co to jest DDD?
+DDD, czyli Domain-Driven Development. Tak jak wspomniałem, BDD bliskie jest DDD, czyli podejściu opartemu o dziedzinę. Nie sposób w jednym akapicie opisać całą złożoność procesu tworzenia oprogramowania według zasad DDD, gdyż można o tym temacie znaleźć książki, jednak spróbuję w skrócie nakreślić główne założenia. W Domain-Driven Development ważna jest domena, czy też dziedzina, której dotyczy projektowane oprogramowanie. To właśnie ścisła współpraca na linii programista-ekspert ma w założeniu stworzyć taki model dziedziny, który jest bliski temu jak dany problem rozumieją eksperci. Eksperci to w założeniu też użytkownicy danego programu. Dzięki temu program stworzony w DDD nie tyle będzie miał odpowiednie nazewnictwo klas czy metod, ale całe jego działanie, relacje, interfejs użytkownika będzie odpowiadał temu jak dany problem jest rozumiany i rozwiązywany przez ekspertów. Innymi słowy program oparty na stworzonym modelu ma bardziej odpowiadać zapotrzebowaniu użytkowników.
