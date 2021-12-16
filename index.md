@@ -13,6 +13,9 @@ Udostępniam publiczną bazę wiedzy dla deweloperów backendowych, frontendowyc
 * [SQL](./Sql.html)
 * [JavaScript](./Js.html)
 * [TDD, BDD, DDD etc.](./Metodyki.html)
+* [GIT](./Git.html)
+* [CI/CD](./CiCd.html)
+* [PHP](./PHP.html)
 
 ---
 
