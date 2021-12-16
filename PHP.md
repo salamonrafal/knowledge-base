@@ -211,3 +211,26 @@ Trigger to mechanizm automatycznego uruchamiania zapytań podczas wskazanych ope
 ### 17. Co znaczy słowo kluczowe „final” przed klasą?
 
 Final ocznacza że klasę nie można rozszerzać, zapobiega to naspisywaniu funckjonalności klasy.
+
+### 18. Czym różni się interfejs od klasy abstracyjnej?
+
+Podstawa programowania obiektowego. Odpowiedź, że w interfejsie mamy tylko metody abstrakcyjne, które nie mają swojej implementacji, a klasa abstrakcyjna może posiadać zwykłe metody jak i metody abstrakcyjne może być niewystarczająca. Warto dodać, że w PHP możemy dziedziczyć po jednej klasie (bezpośrednio), a implementować interfejsów możemy dowolną ilość. Interfejsy mogą mieć stałe oraz publiczne metody, klasa abstrakcyjna może mieć wszystko, co normalna klasa. Warto dodać, że interfejsy mogą się rozszerzać. Z obu też nie tworzymy konkretnej instacji.
+
+### 19. Podstawowe różnice między wersją 5 a 7 języka PHP?
+
+* Scalar type declarations `sumOfInts(int ...$ints)`
+* Return type declarations `function arraysSum(array ...$arrays): array`
+* Null coalescing operator `$username = $_GET['user'] ?? 'nobody';`
+* Spaceship operator `echo 1 <=> 1; // 0`
+* Constant arrays using define()
+* Anonymous classes 
+```php
+$app->setLogger(new class implements Logger {
+    public function log(string $msg) {
+        echo $msg;
+    }
+});
+```
+* Unicode codepoint escape syntax `echo "\u{aa}";`
+* Closure::call() `echo $getX->call(new A);`
+* 
